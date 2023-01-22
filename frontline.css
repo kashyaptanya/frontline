@@ -1,32 +1,36 @@
-
-.section1{
+.section1 {
     background: url(carbg.jpg) no-repeat center/cover;
     height: 85vh;
     padding: 25px;
 }
 
-.left img{
+.left img {
     height: 100%;
 }
-.left{
+
+.left {
     height: 80px;
- 
+
 }
-.menu ul{
-  text-align: right;
+
+.menu ul {
+    text-align: right;
 }
-.menu ul li{
-    display: inline-block;    
+
+.menu ul li {
+    display: inline-block;
     padding: 25px;
     font-weight: bold;
     font-size: 12px;
     cursor: pointer;
 }
-.menu{
+
+.menu {
     color: #ffffff;
 }
-.login_button{
-    background:#EF2F3A;
+
+.login_button {
+    background: #EF2F3A;
     border: none;
     padding: 6px;
     width: 110px;
@@ -35,8 +39,9 @@
     color: white;
     font-size: 12px;
 }
-.login_buttonred{
-    background:#DE0E0B;
+
+.login_buttonred {
+    background: #DE0E0B;
     border: none;
     padding: 6px;
     width: 110px;
@@ -45,75 +50,97 @@
     color: white;
     font-size: 12px;
 }
+
 .content {
     padding: 60px;
 }
-.content h6{
-    color:#EF2F3A;
+
+.content h6 {
+    color: #EF2F3A;
     font-weight: bold;
     font-size: 20px;
 }
-.content h1{
+
+.content h1 {
     color: white;
 }
-.content p{
+
+.content p {
     color: white;
     font-size: 12px;
 }
-.hr{
+
+.hr {
     position: relative;
     text-align: center;
 
 }
-.hr:before{
+
+.hr:before {
     content: "";
-    width:80px;
+    width: 80px;
     height: 1px;
     background: #EF2F3A;
     left: 0;
     top: 50%;
     position: absolute;
 }
-img{
+
+img {
     height: 100%;
     width: 100%;
 }
-.section .p{
+
+.section .p {
     color: #EF2F3A;
-    border-bottom:1px solid #EF2F3A;
+    border-bottom: 1px solid #EF2F3A;
     width: 66px;
     font-size: 12px;
     font-weight: bold;
-    
+
 }
-.section .Services{
+
+.section .Services {
     color: #EF2F3A;
-    border-bottom:1px solid #EF2F3A;
+    border-bottom: 1px solid #EF2F3A;
     width: 86px;
     font-size: 12px;
     font-weight: bold;
 }
-.section p{
+
+.section p {
     line-height: 2.3rem;
     font-size: 11px;
     color: #747474;
 
 }
 
-.section3{
+/* .section3{
     background: url(section.jpg) no-repeat center/cover;
     height: 85vh;
 
+} */
+
+
+.imgcar {
+    height: 507px;
+    max-width: 41% !important;
+    position: absolute;
+    right: 0;
+
 }
-.section .bg{
+
+.section .bg {
     background-color: #DE0E0B;
     padding: 30px;
     height: 100px;
+    width: 118%;
 }
-.section .BA{
+
+.section .BA {
     text-align: center;
     background-color: white;
-    width: 118px;
+    width: 166px;
     font-weight: bold;
 }
 
@@ -126,40 +153,132 @@ p.features {
     padding-top: 38px;
     margin-left: 36px;
 }
-.chats .section{
- 
+
+.chats .section {
+
     height: 204px;
     border-right: 3px solid black;
-        position: absolute;
-        right: 50%;
-    
+    position: absolute;
+    right: 50%;
+
 }
-.img1{
+
+.img1 {
     height: 74px;
     width: 207px;
     cursor: pointer;
 }
-.img2{
+
+.img2 {
     margin-top: 12px;
     height: 49px;
     width: 169px;
     cursor: pointer;
 }
-.imgback{
-    height: 400px;
-    width: 287px;
+
+.imgback {
+    height: 329px;
+    width: 259px;
     position: absolute;
-    left: 0px;
-  top: 0px;
-  z-index: -3;
+  
+
 }
-.section5{
+
+.imgfront {
+    width: 520px;
+    /* left: 0px;
+    top: 0px; */
+    height: 600px;
+    right: 84px;
+    position: absolute;
+}
+
+.section5 {
     /* background: url(MaskGroup.jpg) no-repeat center/cover; */
     background-color: #f7f7f7;
-    height: 50vh;
+    height: 55vh;
 }
-.logo{
+
+.imagerace {
+    height: 343px;
+}
+
+.logo {
     height: 65px;
     width: 153px;
-    
+
+}
+
+.phone {
+
+    width: 45px;
+    background-color: white;
+    height: 43px;
+    padding: 11px;
+}
+
+.call {
+    background-color: #DE0E0B;
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    height: 43px;
+    width: 194px;
+}
+
+.wrap {
+    display: flex
+}
+
+p.border1 {
+    border-bottom: 1px solid;
+    width: 145px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.full {
+    padding: 46px;
+    width: 333px;
+}
+
+.footer {
+    font-size: 11px;
+    color: #747474;
+}
+
+.colorback {
+    background-color: #FFFBFB;
+    height: 100vh;
+}
+
+.black {
+    background-color: black;
+    height: 128px;
+
+    display: block;
+}
+
+.section3 {
+    position: relative;
+}
+
+.imgcar1 {
+    height: 150px;
+    width: 200px;
+}
+
+.imgcar2 {
+    height: 159px;
+    width: 200px;
+}
+
+.black_img_container {
+    background-color: black;
+    position: absolute;
+    display: flex;
+    right: 270px;
+    bottom: 0;
+    padding: 20px;
+    width: 500px !important;
 }

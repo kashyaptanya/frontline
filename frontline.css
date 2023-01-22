@@ -4,6 +4,58 @@
     padding: 25px;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.section1 {
+    position: relative;
+}
+
+.section1 a {
+    display: none;
+}
+
+
+/* Media queries */
+@media (max-width: 600px) {
+  .menu ul {
+    display: none;
+  }
+
+  .section1 a {
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+  .menu.responsive {position: relative;}
+  .menu.responsive ul  {
+    /* position: absolute;
+    right: 0;
+    top: 0; */
+    display: flex !important;
+    flex-direction: column;
+    background-color: white;
+    height: fit-content;
+  }
+  .menu.responsive ul  {
+    color: black;
+}
+
+}
+
+
 .left img {
     height: 100%;
 }

@@ -40,9 +40,12 @@ nav {
     }
     
 }
+
+
+
 @media (max-width: 1024px) and (min-width :601px){
     .img1{
-        width: 126px !important;
+        width: 209px !important;
     }
     .img2{
         width: 130px !important;
@@ -59,19 +62,34 @@ nav {
     .black_img_container{
 right: 40px!important;
     }
+    
+
 
 }
 
-@media (max-width: 768px) {
+
+
+.imgfront {
+    right: 12% !important;
+    width: 520px;
+    height: 600px;
+    position: absolute;
+}
+
+@media (max-width: 991px) {
     .imgfront {
         right: -4px !important;
+    }
+}
+@media (max-width: 768px) {
+    .imgfront {
         position: static !important;
         width: 314px !important;
         margin: auto;
         height: 424px !important;
     }
     .chats .section {
-        height: 497px !important;
+        height: fit-content !important;
         position: static !important;
         border: none !important;
     }
@@ -97,13 +115,31 @@ right: 40px!important;
     }
  
 }
-
-/* Media queries */
-@media (max-width: 600px) {
+@media (max-width: 769px) {
     .menu ul {
         display: none;
         padding: 13px !important;
         margin-left: 11px !important;
+    }
+    .menu ul li {
+        padding: 10px !important;
+    }
+
+}
+/* Media queries */
+@media (max-width: 769px) {
+    
+    .section.parts{
+        padding: 53px 53px 0 53px !important;
+    }
+    .menu.responsive {
+        /* position: relative; */
+        position: absolute;
+        right: 1px;
+        top: 80px;
+        z-index: 1;
+        display: flex;
+        justify-content: end;
     }
     .hr:before {
         width: 25px !important;
@@ -135,25 +171,13 @@ right: 40px!important;
         top: 30px;
     }
 
-    .menu ul li {
-        padding: 10px !important;
-    }
-
+   
  
 
-    .con {
+    /* .con {
         width: 142% !important;
-    }
+    } */
 
-    .menu.responsive {
-        /* position: relative; */
-        position: absolute;
-        right: 1px;
-        top: 80px;
-        z-index: 1;
-        display: flex;
-        justify-content: end;
-    }
 
     .section5 {
         height: 100vh !important;
@@ -294,7 +318,8 @@ img {
     background-color: #DE0E0B;
     padding: 30px;
     height: 100px;
-    width: 130%;
+ 
+    width: calc(100% + 100px);
 }
 
 .section .BA {
@@ -318,6 +343,7 @@ img {
     height: 555px;
     position: absolute;
     right: 0;
+    object-fit: cover;
 }
 
 
@@ -409,11 +435,6 @@ p.features {
     position: absolute;
 }
 
-.imgfront {
-    width: 520px;
-    height: 600px;
-    position: absolute;
-}
 
 
 
@@ -421,7 +442,8 @@ p.features {
 
 .section5 {
     background-color: #f7f7f7;
-    height: 55vh;
+    margin-top: 97px !important;
+    height: 68vh;
 }
 
 .logo1 {
@@ -466,7 +488,7 @@ p.border1 {
 .call {
     background-color: #DE0E0B;
     font-weight: bold;
-    padding: 8px;
+    padding: 6px;
     text-align: center;
     height: 43px;
     width: 194px;
@@ -476,3 +498,29 @@ p.border1 {
 .imagerace {
     height: 343px;
 }
+.fit{
+    object-fit: cover;
+}
+.section .parts{
+    padding: 46px 46px 0 46px;
+}
+.parent{
+    position: relative;
+}
+.postion{
+    position: absolute;
+    top: 75px;
+    right: 92%;
+}
+.section.seq {
+    max-width: 60%;
+}
+@media (max-width: 940px){
+    .postion{
+        position: sticky;
+    }
+    .section.seq{
+       max-width: 100%!important;
+    }
+
+} 

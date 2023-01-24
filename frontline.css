@@ -43,11 +43,11 @@ nav {
         margin: 0 auto;
     }
 }
-@media (max-width: 940px) and (min-width :768px) {
+/* @media (max-width: 940px) and (min-width :768px) {
     .full{
         margin-left: -240px;
     }
-}
+} */
 
 @media (max-width: 1024px) and (min-width :769px) {
     .black_img_container {
@@ -73,6 +73,24 @@ nav {
     .imgfront {
         right: -4px !important;
     }
+}
+
+
+@media (max-width: 768px)
+{
+    .section5{
+        margin-top: 45px !important;
+    }
+    .section.seq.px-5.py-2 {
+        padding: 31px !important;
+    }
+}
+    @media (max-width: 320px){
+    .section.pt-3.px-5 {
+    padding-top: 33px !important;
+    }
+  
+   
 }
 
 @media (max-width: 768px) {
@@ -138,17 +156,28 @@ nav {
     }
 
 }
+@media (max-width: 1024px) and (min-width:768){
+    .full{
+        margin-left: -240px !important;
+    }
+}
+
 
 @media (max-width: 1019px) {
     .img2 {
         width: 182px !important;
     }
 }
+@media (max-width: 336px){
+    p.features {
+   margin-left: 50px !important;
+    }
+}
 
 @media (max-width: 769px) {
 
     .section.parts {
-        padding: 53px 53px 0 53px !important;
+        padding: 22px 48px 0 48px !important;
     }
 
     .menu.responsive {
@@ -189,11 +218,11 @@ nav {
         right: 30px;
         top: 30px;
     }
-
+/* 
     .section5 {
         height: 100vh !important;
 
-    }
+    } */
 
     .full {
         width: 100% !important;
@@ -444,8 +473,8 @@ p.features {
 
 .section5 {
     background-color: #f7f7f7;
-    margin-top: 97px !important;
-    height: 68vh;
+    /* margin-top: 97px !important; */
+    /* height: 68vh; */
 }
 
 .logo1 {
@@ -466,6 +495,7 @@ p.features {
 .full {
     padding: 46px;
     width: 320px;
+    margin: 0 auto;
 }
 
 p.border1 {
@@ -516,19 +546,29 @@ p.border1 {
 .postion {
     position: absolute;
     top: 75px;
-    right: 92%;
+    right: -84px;
+    margin:  0 auto;
 }
 
 .section.seq {
     max-width: 60%;
 }
 
+
 @media (max-width: 940px) {
-    .postion {
-        position: sticky;
-    }
+  
 
     .section.seq {
         max-width: 100% !important;
     }
 }
+@media (max-width: 1024px){
+    .postion {
+        position: static;
+    }
+  
+}
+.center{
+    position: relative;
+}
+

@@ -1,6 +1,6 @@
 .section1 {
     background: url(carbg.jpg) no-repeat center/cover;
-    height: 100vh;
+    height: 100%;
     padding: 25px;
 }
 
@@ -355,7 +355,7 @@ img {
 .section .BA {
     text-align: center;
     background-color: white;
-    width: 145px;
+     max-width: 195px;
     font-weight: bold;
 }
 
@@ -416,12 +416,10 @@ p.features {
 .login_button {
     background: #EF2F3A;
     border: none;
-    padding: 6px;
     width: 110px;
     height: 45px;
     font-weight: bold;
     color: white;
-    font-size: 12px;
 }
 
 
@@ -546,7 +544,7 @@ p.border1 {
 .postion {
     position: absolute;
     top: 75px;
-    right: -84px;
+    /* right: -84px; */
     margin:  0 auto;
 }
 

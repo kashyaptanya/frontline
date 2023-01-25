@@ -22,7 +22,7 @@
         <div class=" left col-md-2">
           <img src="logomain.png " class="img-fluid" style=" object-fit: fill;">
         </div>
-        <!-- <div class="col-md-1"></div> -->
+
         <div class="menu col-md-10 responsive" id="menuId">
           <ul>
             <li>HOME</li>
@@ -141,7 +141,7 @@
             </p>
             <div class="row">
 
-              <div class="col-md-5">
+              <div class="col-md-5 bothbutton">
                 <div class="img1"><img src="google_play.jpg" /></div>
               </div>
               <div class="col-md-6 ">
@@ -154,7 +154,7 @@
           <div class="imgback my-5 py-5">
             <img src="Groupdot.jpg">
           </div>
-          <div class="imgfront" >
+          <div class="imgfront">
             <img src="bothbg.png" style=" object-fit: cover;">
           </div>
         </div>
@@ -166,8 +166,7 @@
         <div class="col-md-7">
           <div class="section seq p-5 ">
             <div class="logo1">
-              <img src="logomain.png" class="img-fluid" style=
-                "object-fit: contain";>
+              <img src="logomain.png" class="img-fluid" style="object-fit: contain" ;>
             </div>
             <h1>Book yours today!</h1>
             <p>Get your Car services done in just 1 click. Book appointment from our nearest Gas Stations and get
@@ -175,7 +174,7 @@
             <button class="login_buttonred ">CHAT</button>
           </div>
         </div>
-       
+
         <div class="col-md-5 parent">
           <div class="imagerace">
             <img src="Mask_Group.png" style="object-fit: cover">
@@ -212,7 +211,7 @@
     </div>
 
     <!-- <div class="col-md-5 ">
-      <div class="footer text-end  p-4  ">
+      <div class="footer text-center  p-5  ">
         <p>© 2023 Solidappmaker. All rights reserved.</p>
       </div>
     </div> -->
@@ -223,7 +222,7 @@
 
     function myFunction() {
       var x = document.getElementById("menuId");
-      if (x.className === "menu") {
+      if (x.className == "menu") {
         x.className += " responsive";
       } else {
         x.className = "menu";
@@ -234,3 +233,4 @@
 </body>
 
 </html>
+

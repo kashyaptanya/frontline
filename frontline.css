@@ -36,6 +36,10 @@ nav {
     display: none;
 }
 
+.content p{
+    font-size: 14px;
+}
+
 /* Media queries */
 @media (max-width: 768px) {
     .content {
@@ -92,6 +96,7 @@ nav {
   
    
 }
+
 
 @media (max-width: 768px) {
     .imgfront {
@@ -170,7 +175,7 @@ nav {
 }
 @media (max-width: 336px){
     p.features {
-   margin-left: 50px !important;
+   /* margin-left: 50px !important; */
     }
 }
 
@@ -209,7 +214,7 @@ nav {
     .imgcar {
         position: static !important;
         height: 289px !important;
-        width: 140% !important;
+        /* width: 140% !important; */
     }
 
     .section1 a {
@@ -303,7 +308,6 @@ nav {
 
 .content p {
     color: white;
-    font-size: 13px;
 }
 
 .hr {
@@ -339,7 +343,7 @@ img {
 .section .Services {
     color: #EF2F3A;
     border-bottom: 1px solid #EF2F3A;
-    width: 100px;
+    width: 115px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -390,7 +394,7 @@ img {
 .black {
     background-color: black;
     height: 128px;
-    width: 99%;
+    width: 100%;
     display: block;
 }
 
@@ -398,7 +402,7 @@ img {
 p.features {
     color: #EF2F3A;
     border-bottom: 1px solid #EF2F3A;
-    width: 100px;
+    width: 115px;
     font-size: 14px;
     font-weight: bold;
     padding-top: 38px;
@@ -409,7 +413,7 @@ p.features {
 
     height: 204px;
     border-right: 3px solid black;
-    position: absolute;
+    /* position: absolute; */
     right: 50%;
 }
 
@@ -498,7 +502,7 @@ p.features {
 
 p.border1 {
     border-bottom: 1px solid;
-    width: 148px;
+    width: 158px;
     font-size: 12px;
     font-weight: bold;
 }
@@ -569,4 +573,148 @@ p.border1 {
 .center{
     position: relative;
 }
+@media (max-width: 1700px) and (min-width :1500px) {
+    .content h6 {
+        font-size: 32px;
+    }
+    .content p{
+        font-size: 20px;        
+    }
+    .content {
+        padding: 186px !important;
+    }
+    .hr{
+        width: 425px;
+    }
 
+.menu ul li{
+    font-size: 20px;
+}
+}
+
+.call p {
+    color: white !important;
+    text-decoration: none !important;
+}
+@media (max-width: 1920px) and (min-width :1700px) {
+    .content h6 {
+        font-size: 55px;
+    }
+    .content h1{
+        font-size: 60px
+    }
+    .content p{
+        font-size: 25px!important;        
+    }
+    .hr{
+        width: 95%;
+    }
+    .hr:before{
+        height: 2px;
+        width: 100px;
+    }
+    .left{
+        height: 100px;
+    }
+
+.menu ul li{
+    font-size: 25px;
+    padding: 35px;
+}
+.login_button{
+    width: 180px;
+    height: 82px;
+    font-size: 23px;
+}
+.content{
+    padding: 105px !important;
+}
+
+
+
+p.p {
+    width: 140px !important;
+    font-size: 25px !important;
+}
+.section h1{
+    font-size: 48px;
+}
+.section p{
+    font-size: 18px;
+}
+.section .Services{
+    width: 230px !important;
+    font-size: 30px !important;
+}
+.section .BA {
+    max-width: 311px;
+}
+.section .bg{
+    padding: 45px;
+    height: 149px;
+}
+.black{
+    
+        height: 200px;
+    }
+    .imgcar{
+        height: 602px;
+        
+    }
+    .black_img_container {
+        right: 515px;
+        width: 483px !important;
+    }
+    p.features {
+
+    width: 230px !important;
+    font-size: 25px !important;
+}
+    .container.foruse {
+        padding: 64px 0 64px 0;
+    }
+    .img1{height: 104px;
+        width: 244px;
+    }
+    .img2 {
+        height: 69px !important;
+        margin-top: 17px !important;
+        width: 233px !important;
+    }
+    .logo1 {
+        width: 163px;
+        height: 87px;
+    }
+    button.login_buttonred {
+        font-size: 23px;
+        width: 148px;
+        height: 55px;
+    }
+    .full {
+        padding: 77px !important;
+        width: 470px;
+    }
+    p.border1 {
+        width: 246px;
+        font-size: 20px;
+    }
+    .phone {
+        width: 77px;
+        height: 62px;
+        padding: 14px;
+    }
+    .call.text-white {
+        height: 63px;
+        font-size: 20px;
+        width: 296px;
+        padding: 14px !important;
+        padding: 4;
+    }
+    .imagerace {
+        height: 478px;
+    }
+    .footer{
+        font-size: 20px;
+        padding: 72px;
+    }
+}

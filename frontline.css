@@ -416,7 +416,7 @@ img {
 p.features {
     color: #EF2F3A;
     border-bottom: 1px solid #EF2F3A;
-    width: 115px;
+    width: 139px;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -458,7 +458,7 @@ p.features {
 .section .p {
     color: #EF2F3A;
     border-bottom: 1px solid #EF2F3A;
-    width: 66px;
+    width: 76px;
     font-size: 14px;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
@@ -659,14 +659,11 @@ p.border1 {
     .login_button {
         width: 170px;
         height: 75px;
-        /* font-size: 23px; */
     }
 
     .content {
         padding: 105px !important;
     }
-
-
 
     p.p {
         width: 140px !important;
@@ -678,7 +675,7 @@ p.border1 {
     }
 
     .section p {
-        font-size: px;
+        font-size: 17px;
     }
 
     .section .Services {
@@ -712,7 +709,7 @@ p.border1 {
 
     p.features {
 
-        width: 230px !important;
+        width: 248px !important;
         font-size: 25px !important;
     }
 

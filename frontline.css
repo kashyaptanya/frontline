@@ -132,7 +132,9 @@ nav {
 
     .menu ul li {
         padding: 3px !important;
+        display: flex !important;
     }
+    
 }
 
 @media (max-width: 767px) and (min-width :601px) {
@@ -160,7 +162,10 @@ nav {
     }
 
     .menu ul li {
-        padding: 10px !important;
+        padding: 1px !important;
+    }
+    .menu a{  
+        color: #000 !important;
     }
 
 }
@@ -222,7 +227,7 @@ nav {
         /* width: 140% !important; */
     }
 
-    .section1 a {
+    .section1 .icon {
         display: block;
         position: absolute;
         right: 30px;
@@ -435,12 +440,15 @@ p.features {
 .login_button {
     background: #EF2F3A;
     border: none;
-    width: 110px;
+    width: 116px;
     height: 45px;
     font-weight: bold;
     color: white;
 }
 
+.col-xs-12.col-sm-12.col-md-12.col-lg-6.footerSec {
+    margin: 55px 37px 0 38px;
+}
 
 /* section4 */
 .colorback {
@@ -543,7 +551,7 @@ p.border1 {
 .call {
     background-color: #DE0E0B;
     font-weight: bold;
-    padding: 6px;
+    padding: 10px;
     text-align: center;
     height: 43px;
     width: 194px;
@@ -834,6 +842,8 @@ body{
     right: 20px;
   } */
 
+
+
 button.slick-prev.butt.slick-arrow {
     height: 43px;
     width: 42px;
@@ -847,4 +857,14 @@ button.slick-next.butt.slick-arrow {
 }
 .slick-next:before{
     font-size: 1px!important;
+}
+.min{
+    height: 140px;
+}
+.menu a{
+    display: inline-block;  
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: bold;
 }

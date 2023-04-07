@@ -30,7 +30,7 @@
   <!-- section1 -->
 
   <div class="section1">
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0);" class="icon " onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
     <div class="row">
@@ -40,16 +40,26 @@
       <div class="col-md-10">
         <div class="menu" id="menuId">
           <ul>
-            <li>HOME</li>
-            <li>ABOUT US</li>
-            <li>SERVICES</li>
-            <li>CHATS</li>
+            <li>
+              <a href="#home">HOME</a>
+            </li>
+
+            <li>
+              <a href="#about">ABOUT US</a>
+            </li>
+            <li>
+              <a href="#services">SERVICES</a>
+            </li>
+            <li>
+              <a href="#chats">CHATS</a>
+            </li>
+
             <li><button class="login_button ">LOG IN</button></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="row con">
+    <div class="row con" id="home">
       <div class="content " style="max-width: 50%;  margin-left: 151px;   padding: 60px;">
         <h6>Auto body and Paint </h6>
         <h1>Book your appointment now</h1>
@@ -64,7 +74,7 @@
     </div>
   </div>
   <!-- section2 -->
-  <div class="container">
+  <div class="container-fluid " id="about">
     <div class="row">
       <div class="col-md-6">
         <div class="image    ">
@@ -88,7 +98,7 @@
   </div>
   <!-- section3 -->
   <!-- <div class="container"> -->
-  <div class="section3">
+  <div class="section3" id="services">
     <!-- <div class=""> -->
     <div class="row sectionpart" style="margin: 0px!important;">
       <div class="col-md-2"></div>
@@ -167,23 +177,27 @@
     </div>
   </div>
   <!-- section4 -->
-  <div class="container foruse">
+  <div class="container foruse" id="chats">
     <p class="features ">SPECIAL FEATURES</p>
     <div class="row">
-
       <div class="col-md-6 chats">
         <div class="section " style="padding: 34px">
-          <h1>Schedule an Appointment</h1>
-          <p>Do you prefer to speak with an estimator in-person? Schedule your appointment today!</p>
+          <div class="min">
+            <h1>Schedule an Appointment</h1>
+            <p>Do you prefer to speak with an estimator in-person? Schedule your appointment today!</p>
+          </div>
+
           <button class="login_button ">BOOK</button>
         </div>
       </div>
       <div class="col-md-6">
         <div class="section" style="padding: 34px">
+          <div class="min">
+            <h1>Chat with Estimator</h1>
+            <p>Would you like to receive a “ballpark” estimate of your repair within hours? Our estimators are one click
+              away!</p>
+          </div>
 
-          <h1>Chat with Estimator</h1>
-          <p>Would you like to receive a “ballpark” estimate of your repair within hours? Our estimators are one click
-            away!</p>
           <button class="login_button ">CHAT</button>
         </div>
       </div>
@@ -249,9 +263,9 @@
 
         </div>
         <div class="D ">
-          <div class="d-flex" >
+          <div class="d-flex">
             <button class="slick-prev butt mt-5"><img src="Group 38479.png"></button>
-            <button class="slick-next butt mt-5"><img src="Group 38480.png"></button>           
+            <button class="slick-next butt mt-5"><img src="Group 38480.png"></button>
           </div>
         </div>
 
@@ -267,7 +281,7 @@
     <div class="section5  ">
       <div class="row center" style="padding:0px!important">
         <div class="col-md-7">
-          <div class="section seq " style="padding: 35px;">
+          <div class="section seq " style="padding: 48px;">
             <div class="logo1">
               <img src="logomain.png" class="img-fluid" style="object-fit: contain" ;>
             </div>
@@ -291,7 +305,7 @@
                   <img src="phone.jpg">
                 </div>
                 <div class="call text-white">
-                  <p  style="font-size: 14px;">805-490-8202 </p>
+                  <p style="font-size: 14px;">805-490-8202 </p>
                 </div>
               </div>
             </div>
@@ -312,8 +326,8 @@
     </div>
   </div>
   <div class="container mt-5 mb-5">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 footerSec">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 footerSec" >
         <div class="footer text-center">
           <p>© 2023 Solidappmaker. All rights reserved.</p>
         </div>
@@ -339,19 +353,19 @@
     }
   </script>
 
-<script type="text/javascript">
-  $('.slider').slick({
-    dots: false,
-    vertical: false,
-    verticalSwiping: false,
-    centerMode: true,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    arrow:true,
-    prevArrow: $('.slick-prev'),
-    nextArrow: $('.slick-next')
-  });
-</script>
+  <script type="text/javascript">
+    $('.slider').slick({
+      dots: false,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      arrow: false,
+      prevArrow: $('.slick-prev'),
+      nextArrow: $('.slick-next')
+
+    });
+  </script>
 
 </body>
 
